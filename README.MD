@@ -10,7 +10,7 @@ $ npm install angular2-arc-progress --save
 
 ## Consuming the library
 
-You can import your library in any Angular application from your Angular `AppModule` (or any module you want):
+You can import the library in any Angular application from your Angular `AppModule` (or any module you want):
 
 ```typescript
 import { BrowserModule } from '@angular/platform-browser';
@@ -48,14 +48,14 @@ Then you can use its component in your Angular application:
 
 ## Properties
 
-``size``: size of the arc (_width_ x _height_)
-``gap``: gap in the circle given in degrees from 90 to 180.
-    - 90 = Half circle
-    - 180 = Full circle
-``progress``: progress percentage (0 to 100)
-``backgroundColor``: background color of the arc
-``progressColor``: color of the progress bar
-``strokeWidth``: stroke width of the arc.
+``size``: size of the arc (_width_ x _height_)  
+``gap``: gap in the circle given in degrees from 90 to 180.  
+    - 90 = Half circle  
+    - 180 = Full circle  
+``progress``: progress percentage (0 to 100)  
+``backgroundColor``: background color of the arc  
+``progressColor``: color of the progress bar  
+``strokeWidth``: stroke width of the arc.  
 
 ## License
 
