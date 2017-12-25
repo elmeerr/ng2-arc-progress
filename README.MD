@@ -57,6 +57,10 @@ Then you can use its component in your Angular application:
 ``progressColor``: color of the progress bar  
 ``strokeWidth``: stroke width of the arc.  
 
+## Live demo
+
+You can check the component working here: https://elmeerr.github.io/ng2-arc-progress-demo/
+
 ## License
 
 MIT © [Elmer Dantas](mailto:elmer.dantas@gmail.com)
