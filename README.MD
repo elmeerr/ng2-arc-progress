@@ -50,8 +50,8 @@ Then you can use its component in your Angular application:
 
 ``size``: size of the arc (_width_ x _height_)  
 ``gap``: gap in the circle given in degrees from 90 to 180.  
-    - 90 = Half circle  
-    - 180 = Full circle  
+    • 90 = Half circle  
+    • 180 = Full circle  
 ``progress``: progress percentage (0 to 100)  
 ``backgroundColor``: background color of the arc  
 ``progressColor``: color of the progress bar  
