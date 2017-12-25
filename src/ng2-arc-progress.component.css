@@ -1,0 +1,16 @@
+svg.arc-progress {
+  margin: auto;
+  display: block;
+}
+
+svg.arc-progress path {
+  stroke-linecap: round;
+}
+
+svg.arc-progress path.progress-background {
+  fill: none;
+}
+
+svg.arc-progress path.progress-fill {
+  fill: none;
+}

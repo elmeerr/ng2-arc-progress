@@ -1,0 +1,28 @@
+{
+  "name": "angular2-arc-progress",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elmeerr/ng2-arc-progress"
+  },
+  "author": {
+    "name": "Elmer Dantas",
+    "email": "elmer.dantas@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elmeerr/ng2-arc-progress/issues"
+  },
+  "main": "ng2-arc-progress.umd.js",
+  "module": "ng2-arc-progress.js",
+  "jsnext:main": "ng2-arc-progress.js",
+  "typings": "ng2-arc-progress.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}

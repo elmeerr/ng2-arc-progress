@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="arc-progress"
+     [attr.height]="arcSize"
+     [attr.width]="arcSize"
+>
+  <path class="progress-background"
+        [attr.d]="drawnArc(positionX, positionY, arcRadius, -arcStart, arcStart)"
+        [attr.stroke]="arcBackgroundColor"
+        [attr.stroke-width]="arcStrokeWidth"
+  />
+  <path class="progress-fill"
+        [attr.d]="drawnArc(positionX, positionY, arcRadius, -arcStart, arcStart)"
+        [attr.stroke-dasharray]="strokeDashArray"
+        [attr.stroke-dashoffset]="fillValue"
+        [attr.stroke]="arcProgressColor"
+        [attr.stroke-width]="arcStrokeWidth"
+  />
+</svg>
